@@ -14,8 +14,6 @@ public class FooServiceTest {
 
     @Test
     void test() {
-
-        fooService = new FooService();
         Assertions.assertThat(fooService.hello()).isEqualTo(":sake:");
     }
 
